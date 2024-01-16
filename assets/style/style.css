@@ -7,9 +7,11 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
  /* header */
 .intestazione{
   height: 80px;
+  margin-bottom: 7px;
 }
 
 header img{
@@ -22,24 +24,27 @@ h1{
   margin-top: 4px;
   line-height: 80px;
 }
+ /* fine intestazione */
 
 /* main */
-
 .container{
   padding-left: 50px;
+  padding-top: 15px;
   max-width: 65%;
   height: 100%;
-  background-color: red;
+  background-color:rgb(255, 255, 255);
   margin: 20px auto;
   list-style: none;
   padding-bottom: 20px;
+  border-radius: 10px;
 }
 
 main{
-  background-color: white;
-
+  background-color: rgb(241, 239, 239);
+  padding-top: 20px;
 }
 
+/* inizio due bottoni sopra */
 .bottoni{
   padding-top: 17px;
   border-width: 1px;
@@ -48,13 +53,13 @@ main{
 }
 
 .blu{
- 
   background-color: rgb(45, 152, 188);
   color: white;
   border-radius: 5px;
   padding: 4px 9px;
   border-color: rgb(45, 152, 188);
 }
+
 .white{
   background-color: rgb(255, 255, 255);
   color: rgb(125, 121, 121);
@@ -66,28 +71,110 @@ main{
 .bottoni :hover{
   cursor: pointer;
 }
+/* fine due bottoni sopra */
 
+/* inizio liste */
 section ul{
   list-style: none;
 }
+
  .new-task{
   margin-top: 35px;
   margin-bottom: 29px;
  }
+
  .today{
   margin-top: 35px;
   margin-bottom: 29px;
  }
+
  .Upcoming{
   margin-top: 35px;
   margin-bottom: 29px;
  }
+
  .container li{
-  padding: 9px;
+  padding: 8px;
  }
+
 .freccia{
   height: 10px;
   display: inline-block;
   font-size: 2em;
   vertical-align: top;
 }
+ /* fine liste */
+
+ /* segni in parte alle tasks */
+.tic{
+  display: inline-block;
+  width: 23px;
+  border: 1px solid rgb(49, 202, 41);
+  border-radius: 50%;
+  text-align: center;
+  color:rgb(49, 202, 41) ;
+}
+
+.nope{
+  display: inline-block;
+  width: 23px;
+  border: 1px solid rgb(224, 42, 42);
+  border-radius: 50%;
+  text-align: center;
+  color: rgb(224, 42, 42);
+}
+/* fine segni in parte alle tasks */
+
+/* stiker in parte alle tasks */
+.sticker{
+  display: inline-block;
+}
+
+#editorial{
+  background-color: rgb(74, 74, 254);
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
+}
+
+#goals{
+  background-color: rgb(143, 43, 176);
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
+}
+
+#recruiting{
+  background-color: rgb(47, 212, 146);
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
+}
+
+#mobile{
+  background-color: rgb(228, 138, 42);
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
+}
+
+#Website{
+  background-color: rgb(229, 65, 125);
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
+}
+
+#Sales{
+  background-color: rgb(125, 215, 46);
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-size: .7em;
+  color: white;
+}
+/* fine sticker  */
