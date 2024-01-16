@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
  /* header */
 .intestazione{
   height: 80px;
@@ -27,10 +31,13 @@ h1{
   height: 100%;
   background-color: red;
   margin: 20px auto;
+  list-style: none;
+  padding-bottom: 20px;
 }
 
 main{
   background-color: white;
+
 }
 
 .bottoni{
@@ -58,4 +65,29 @@ main{
 
 .bottoni :hover{
   cursor: pointer;
+}
+
+section ul{
+  list-style: none;
+}
+ .new-task{
+  margin-top: 35px;
+  margin-bottom: 29px;
+ }
+ .today{
+  margin-top: 35px;
+  margin-bottom: 29px;
+ }
+ .Upcoming{
+  margin-top: 35px;
+  margin-bottom: 29px;
+ }
+ .container li{
+  padding: 9px;
+ }
+.freccia{
+  height: 10px;
+  display: inline-block;
+  font-size: 2em;
+  vertical-align: top;
 }
