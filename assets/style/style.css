@@ -25,6 +25,11 @@ h1{
   line-height: 80px;
 }
  /* fine intestazione */
+ .riga{
+  background-color: red;
+  width: 10px;
+  height: 10px;
+ }
 
 /* main */
 .container{
@@ -40,7 +45,7 @@ h1{
 }
 
 main{
-  background-color: rgb(241, 239, 239);
+  background-color: rgb(246,248,249);
   padding-top: 20px;
 }
 
@@ -49,7 +54,6 @@ main{
   padding-top: 17px;
   border-width: 1px;
   padding-bottom: 8px;
-  border-bottom: 1px solid lightgrey ;
 }
 
 .blu{
@@ -70,6 +74,11 @@ main{
 
 .bottoni :hover{
   cursor: pointer;
+}
+
+hr{
+  border: 2px solid rgb(246,248,249);
+  margin-left: -100px;
 }
 /* fine due bottoni sopra */
 
