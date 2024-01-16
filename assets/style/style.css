@@ -33,7 +33,7 @@ h1{
 
 /* main */
 .container{
-  padding-left: 50px;
+  
   padding-top: 15px;
   max-width: 65%;
   height: 100%;
@@ -52,8 +52,9 @@ main{
 /* inizio due bottoni sopra */
 .bottoni{
   padding-top: 17px;
-  border-width: 1px;
+  border-bottom: 4px solid rgb(246,248,249);
   padding-bottom: 8px;
+  padding-left: 50px;
 }
 
 .blu{
@@ -76,10 +77,6 @@ main{
   cursor: pointer;
 }
 
-hr{
-  border: 2px solid rgb(246,248,249);
-  margin-left: -100px;
-}
 /* fine due bottoni sopra */
 
 /* inizio liste */
@@ -90,16 +87,19 @@ section ul{
  .new-task{
   margin-top: 35px;
   margin-bottom: 29px;
+  padding-left: 50px;
  }
 
  .today{
   margin-top: 35px;
   margin-bottom: 29px;
+  padding-left: 50px;
  }
 
  .Upcoming{
   margin-top: 35px;
   margin-bottom: 29px;
+  padding-left: 50px;
  }
 
  .container li{
